@@ -19,7 +19,14 @@ Der standardmäßige _Package Manager_ für Node.js ist npm (_Node Package Manag
 
 ## Installation von strapi
 
-Installation mit dem Skript `pnpm create strapi` Daraufhin führt das CLI durch die Installation. Falls bei der Installation sogennante build scripts nicht eingeführt werden können. schlägt die CLI die Fehlerbehandlung selbständig vor.
+Installation mit dem Skript `pnpm create strapi` Daraufhin führt das CLI durch die Installation. Falls bei der Installation sogennante build scripts nicht eingeführt werden können schlägt die CLI die Fehlerbehandlung selbständig vor.
 
 1. Wechseln in das Installationsverzeichnis (z.B. mit `cd strapi-project`)
 2. Führe den Befehl `pnpm install` aus, um die fehlenden Pakete zu installieren und die uild-Skripte auszuführen. Dieser scheitert in der Regel - die Build Skripte müssen mit pnpm approve-builds manuell freigegebn werden.
+
+# Vibecoding / AgenticEngineering mit VS-Code und Github Copilot
+
+Vibecoding passiert in VS-Code in erster Linie über die neu eingeführte Agent View. Dort können alle Anpassungen des "_Coding Harness_" vorgenommen werden. Wir können unseren _Harness_ mit verschiedenen Methoden anpassen.:
+
+- **MCP-Server**:
+  MCP steht für _Model Context Protocoll_. Es ist ein Standard, der von Anthropic entwickelt wurde. Mit Hilfe von MCP können Chatbots/LLMs (_Large Language Model_) auf zusätzliche Tools zugreifen, die sie zu Experten in einem bestimmten Themenbereich machen.
